@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 1234
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+
+
+    #url: jdbc:postgresql://mouse.db.elephantsql.com/buqdaoxn
+    #username: buqbaoxn
+    #password: ofl2aZ5Yo5ydUpu8KIOV94Saw9h55Eo4
